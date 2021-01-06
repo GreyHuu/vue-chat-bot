@@ -23,9 +23,6 @@ export default {
         <img class="avatar" width="40" height="40" :alt="user.name" :src="user.img">
         <p class="name">{{user.name}}</p>
     </header>
-    <footer>
-        <input class="search" type="text" placeholder="search user..." @keyup="onKeyup | debounce 150">
-    </footer>
 </div>
 </template>
 

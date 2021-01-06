@@ -19,6 +19,7 @@ export default {
 
 <template>
 <div id="app">
+  <h1 style="color:#2e3238">小鲸鱼在线问诊平台</h1>
     <div class="sidebar">
         <card></card>
         <list></list>
